@@ -1,9 +1,6 @@
 name: OSCAR
 
-on: 
-    pull_request:
-        types:
-          - opened
+on: [pull_request]
 
 jobs:
     add_award:
